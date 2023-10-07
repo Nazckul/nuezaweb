@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258 257" width="258" height="257">
+	<title>vite-svg</title>
+	<defs>
+		<image width="52" height="44" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAsCAMAAAAdI2svAAAAAXNSR0IB2cksfwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAJBQTFRFAAAAwbu7w7u7w7y8x7+/wr29xL6+xL6+xr29xLu7wru7wry8wby8w7u7wry8wru7wby8wru7wry8wry8wry8wby8zMzMwru7wby8wb6+wru7xr+/wry8wru7v7+/wbu7yMjIwbu7w729wby8wru7wbu7wry8wru7xLy8w7u7wru7wry8wbu7wby8wbu7wru73LJZtAAAADB0Uk5TAC1AJiAyJysbOLT/mIPJnq5t4LP+4wVHsk7AJIHIHDEOgH/Omt52lkFidahS+7mTKC1x4gAAAKZJREFUeJztkukKwjAQBmM8a7xv61Hvqx7v/3bOFgv5pZaCRMhAmt0JH6XZKuXx5KegtS7aooQop02Fpmqf1hCBqhtjGrZuIlpp06bp2KddRM/1UJ/ngDV8Gxqxm/G/hOQiJkxsGsIMPUcsvgjJ7S1FRxne9NvQag0bVpjhmxK2r6t0NLRjVns7dEAcmeJJpnimuLDHH/5y4Yq4SXGneCTK8ZDHk58nquEiEb82NU4AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="logo (1)" href="#img1" transform="matrix(4.365,0,0,4.365,16,31.846)"/>
+</svg>
