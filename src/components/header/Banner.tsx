@@ -1,4 +1,7 @@
 import { motion } from "framer-motion"
+import TypewriterComponent from "typewriter-effect";
+import ScrollArrow from "../body/ScrollDownButton";
+
 
 const Banner = () => {
     return (
@@ -11,14 +14,33 @@ const Banner = () => {
                             ease: "linear",
                             duration: 2,
                             x: { duration: 1 }
-                          }}>NuezaWeb</motion.h1>
-                    <motion.p className="mx-3 text-xl uppercase" 
-                    animate={{ x: 20 }}
+                        }}>NuezaWeb</motion.h1>
+
+                    <motion.div className="mx-3 text-xl text-white"
+                        animate={{ x: 20 }}
                         transition={{
                             ease: "linear",
                             duration: 2,
                             x: { duration: 1.1 }
-                          }}>Desarrollo y diseño de tu futuro Sitio Web</motion.p>
+                        }}>
+                        <TypewriterComponent
+
+                            onInit={(typewriter) => {
+                                typewriter
+                                    .typeString("Desarrollo")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("y Diseño de")
+                                    .pauseFor(1000)
+                                    .deleteAll()
+                                    .typeString("tu futuro sitio Web.")
+                                    .start();
+                            }}
+                        />
+                    </motion.div>
+                </div>
+                <div className="flex justify-center items-center">
+                    <ScrollArrow />
                 </div>
             </div>
         </header>

@@ -35,9 +35,9 @@ const CardServices = () => {
   }, []);
 
   return (
-    <section className="client">
+    <section className="client" id="card-services">
       <div className="section__container client__container">
-        <h2 className="section__header">¿En qué te puedo ayudar?</h2>
+        <h2 className="section__header mt-20">¿En qué te puedo ayudar?</h2>
         <div className="client__grid">
           <motion.div
             className="client__card"

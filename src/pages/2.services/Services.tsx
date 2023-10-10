@@ -63,7 +63,7 @@ export default function Services() {
               A lo largo de mis <span className='font-semibold underline underline-offset-2'>5 años de experiencia</span> en el mundo del desarrollo web, he trabajado con una amplia
               variedad de <span className='text-indigo-600 font-semibold'>tecnologías y herramientas</span>, entre las que se incluyen HTML, CSS, Bootstrap, Tailwind
               CSS,
-              Javascript, React.js, Next.js, Astro, Vite.js, Material-UI, PHP, Python y Java. <br /> Además, he adquirido <span className='text-indigo-600 font-semibold'>habilidades</span> en
+              Javascript, Typescript, React.js, Next.js, Astro, Vite.js, Material-UI, CoreUI, PHP, Python y Java. <br /> Además, he adquirido <span className='text-indigo-600 font-semibold'>habilidades</span> en
               el
               manejo de herramientas como Adobe Photoshop, y en el ámbito del marketing digital, con Google Marketing
               Platform.
