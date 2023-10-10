@@ -1,4 +1,4 @@
-import { CloudArrowUpIcon, LockClosedIcon} from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ShieldCheckIcon} from '@heroicons/react/20/solid'
 import imageGithub from '../../assets/imageGithub.jpg'
 import Jumbotron from '../../components/body/Jumbotron'
 import BackButton from '../../components/body/BackButton'
@@ -79,6 +79,12 @@ export default function Services() {
                   <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-900">SSL certificates.</strong> Me encargo de seleccionar tu dominio, hosting y certificar la seguridad de tu sitio.
+                  </span>
+                </li>
+                <li className="flex gap-x-3">
+                  <ShieldCheckIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Testing.</strong> Checkeo final de errores y validación de buen funcionamiento.
                   </span>
                 </li>
               </ul>
