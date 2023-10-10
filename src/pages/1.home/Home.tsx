@@ -1,5 +1,6 @@
 import CardServices from "../../components/body/CardServices"
 import Jumbotron from "../../components/body/Jumbotron"
+import SocialMedia from "../../components/body/SocialMedia"
 import Banner from "../../components/header/Banner"
 import { motion } from "framer-motion"
 
@@ -13,6 +14,7 @@ const Home = () => {
         <Banner />
         <CardServices />
         <Jumbotron />
+        <SocialMedia />
       </motion.div>
   )
 }

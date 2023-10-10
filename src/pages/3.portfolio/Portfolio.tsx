@@ -1,6 +1,7 @@
 import BackButton from "../../components/body/BackButton"
 import Cards from "../../components/body/Cards"
 import { motion } from "framer-motion"
+import SocialMedia from "../../components/body/SocialMedia"
 
 
 const Portfolio = () => {
@@ -12,6 +13,7 @@ const Portfolio = () => {
       >
         <Cards />
         <BackButton />
+        <SocialMedia />
       </motion.div>
   )
 }

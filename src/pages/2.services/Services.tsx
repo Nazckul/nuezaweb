@@ -2,6 +2,7 @@ import { CloudArrowUpIcon, LockClosedIcon} from '@heroicons/react/20/solid'
 import imageGithub from '../../assets/imageGithub.jpg'
 import Jumbotron from '../../components/body/Jumbotron'
 import BackButton from '../../components/body/BackButton'
+import SocialMedia from '../../components/body/SocialMedia'
 
 export default function Services() {
   return (
@@ -98,6 +99,7 @@ export default function Services() {
       </div>
       <Jumbotron />
       <BackButton />
+      <SocialMedia />
     </div>
   )
 }
