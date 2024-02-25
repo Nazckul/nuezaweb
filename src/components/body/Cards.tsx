@@ -1,3 +1,4 @@
+import hotel0 from "../../assets/vmasesores.jpg"
 import hotel1 from "../../assets/terra.jpg"
 import hotel2 from "../../assets/tierraps.jpg"
 import hotel3 from "../../assets/hotelero.jpg"
@@ -14,13 +15,29 @@ const Cards = () => {
         <section className="section__container popular__container">
             <h2 className="section__header">Mis últimos proyectos</h2>
             <div className="popular__grid">
-                <motion.div className="imagen de terranostrasierra.com"
+                <motion.div className="popular__card"
                     initial={{ opacity: 0, y: 30, scale: 1 }}
                     animate={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: -30, scale: 1 }}
                     whileHover={{ scale: 1.05 }} // Escala aumentada al pasar el mouse
                     transition={{ duration: 0.5 }}>
-                    <img src={hotel1} alt="popular hotel" />
+                    <img src={hotel0} alt="imagen de vmasesoresfinancieros.com" />
+                    <div className="popular__content">
+                        <div className="popular__card__header">
+                            <h4>VM Asesores Financieros</h4>
+                        </div>
+                        <p className="mb-3">Institucional para Victoria Monrroy - Asesores Financieros.</p>
+                        <a href="https://vmasesoresfinancieros.com/" target="_blank" className="hover:underline text-md  text-blue-500">Ir a web</a>
+                    </div>
+
+                </motion.div>
+                <motion.div className="popular__card"
+                    initial={{ opacity: 0, y: 30, scale: 1 }}
+                    animate={{ opacity: 1, y: 0, scale: 1 }}
+                    exit={{ opacity: 0, y: -30, scale: 1 }}
+                    whileHover={{ scale: 1.05 }} // Escala aumentada al pasar el mouse
+                    transition={{ duration: 0.5 }}>
+                    <img src={hotel1} alt="imagen de terranostrasierra.com" />
                     <div className="popular__content">
                         <div className="popular__card__header">
                             <h4>TERRA NOSTRA SIERRA</h4>
@@ -105,7 +122,7 @@ const Cards = () => {
                         <div className="popular__card__header">
                             <h4>Auditest Argentina</h4>
                         </div>
-                        <p className="mb-3">Maquetación de página Web a partir de un diseño otorgado por la <a href="http://agenciaforest.com/" className="text-red-700 hover:underline">Agencia Forest.</a></p>
+                        <p className="mb-3">Maquetación de página Web a partir de un diseño otorgado por <a href="http://agenciaforest.com/" className="text-indigo-900 font-medium hover:underline">Forest Digital Agency.</a></p>
 
                         <a href="http://www.auditestarg.com/" target="_blank" className="hover:underline text-md  text-blue-500">Ir a web</a>
 
@@ -122,7 +139,7 @@ const Cards = () => {
                         <div className="popular__card__header">
                             <h4>T&T Obras y Servicios</h4>
                         </div>
-                        <p className="mb-3">Maquetación de página Web a partir de un diseño otorgado por la <a href="http://agenciaforest.com/" className="text-red-700 hover:underline">Agencia Forest.</a></p>
+                        <p className="mb-3">Maquetación de página Web a partir de un diseño otorgado por <a href="http://agenciaforest.com/" className="text-indigo-900 font-medium hover:underline">Forest Digital Agency.</a></p>
                         <a href="http://www.tyt-obrasyservicios.com.ar/" target="_blank" className="hover:underline text-md  text-blue-500">Ir a web</a>
 
                     </div>
@@ -138,7 +155,7 @@ const Cards = () => {
                         <div className="popular__card__header">
                             <h4>CONTEBA Servicios</h4>
                         </div>
-                        <p className="mb-3">Maquetación de página Web a partir de un diseño otorgado por la <a href="http://agenciaforest.com/" className="text-red-700 hover:underline">Agencia Forest.</a></p>
+                        <p className="mb-3">Maquetación de página Web a partir de un diseño otorgado por <a href="http://agenciaforest.com/" className="text-indigo-900 font-medium hover:underline">Forest Digital Agency.</a></p>
                         <a href="http://www.contebaservicios.com.ar/" target="_blank" className="hover:underline text-md  text-blue-500">Ir a web</a>
 
                     </div>
